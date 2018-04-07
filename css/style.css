@@ -59,29 +59,31 @@ li {
 }
 
 /* Animation */
+
 .anim-delay-1s {
     animation-delay: 1s;
 }
 
 .anim-delay-1-half {
-    animation-delay: 1.5s;
+    animation-delay: 1.25s;
 }
 
 .social-delay-1 {
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 
 .social-delay-2 {
-    animation-delay: 2.25s;
+    animation-delay: 1.75s;
 }
 
 .social-delay-3 {
-    animation-delay: 2.5s;
+    animation-delay: 2s;
 }
 
 .social-delay-4 {
-    animation-delay: 2.75s;
+    animation-delay: 2.25s;
 }
+
 /* Media Queries */
 
 /* iPad Pro */ 
