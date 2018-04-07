@@ -61,27 +61,27 @@ li {
 /* Animation */
 
 .anim-delay-1s {
-    animation-delay: 1s;
+    animation-delay: 0.25s;
 }
 
 .anim-delay-1-half {
-    animation-delay: 1.25s;
+    animation-delay: 0.5s;
 }
 
 .social-delay-1 {
-    animation-delay: 1.5s;
+    animation-delay: 0.75s;
 }
 
 .social-delay-2 {
-    animation-delay: 1.75s;
+    animation-delay: 1s;
 }
 
 .social-delay-3 {
-    animation-delay: 2s;
+    animation-delay: 1.25s;
 }
 
 .social-delay-4 {
-    animation-delay: 2.25s;
+    animation-delay: 1.5s;
 }
 
 /* Media Queries */
