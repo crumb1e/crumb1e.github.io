@@ -42,6 +42,18 @@ li {
     padding: 20px 0 0 20px;
 }
 
+#about-wrap {
+    height: inherit;
+    position: relative;
+}
+
+#about-content {
+    height: inherit;
+    padding: 35px 0 0 0;
+    max-width: 100%;
+    min-width: 35%;
+}
+
 #heading h1, h2 {
     font-weight: 300;
 }
@@ -52,6 +64,18 @@ li {
     bottom: 0;
     padding: 0 0 20px 20px;
     margin-bottom: 20px;
+}
+
+#nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 20px 20px 0;
+    margin-bottom: 20px;
+}
+
+#nav li, a {
+    text-align: right;
 }
 
 #list {
