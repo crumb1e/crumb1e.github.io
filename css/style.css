@@ -99,7 +99,8 @@ li {
 
     a {
         font-size: 150%;
-        line-height: 1em;
+        line-height: 1.75em;
+        color: black;
     }
 }
 
