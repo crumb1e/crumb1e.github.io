@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+body {
+    overflow:hidden;
+}
+a {
+    text-decoration: none;
+}
+
+h1, h2, a {
+    color: #f8f8f8;
+}
+
+a:hover {
+    color: black;
+}
+
+li {
+    line-height: 30px;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #8968ff;
+    background: -moz-linear-gradient(-45deg, #8968ff 0%, #38a2ce 100%);
+    background: -webkit-linear-gradient(-45deg, #8968ff 0%,#38a2ce 100%);
+    background: linear-gradient(135deg, #8968ff 0%,#38a2ce 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8968ff', endColorstr='#38a2ce',GradientType=1 );
+}
+
+#content {
+    position: relative;
+    height: inherit;
+    padding: 20px 0 0 20px;
+}
+
+#heading h1, h2 {
+    font-weight: 300;
+}
+
+#social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 0 20px 20px;
+    margin-bottom: 20px;
+}
+
+#list {
+    list-style-type: none;
+}
+
+
+/* Media Queries */
+
+/* iPad Pro */ 
+    /* Landscape */
+@media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
+   
+    h1 {
+        font-size: 300%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    a {
+        font-size: 150%;
+        line-height: 2.5em;
+    }
+}
+
+    /* Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+    
+    h1 {
+        font-size: 300%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    a {
+        font-size: 150%;
+        line-height: 2.5em;
+    }
+}
