@@ -26,6 +26,23 @@ li {
     line-height: 30px;
 }
 
+button {
+    background: none;
+    color: inherit;
+    padding: 0 !important;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+}
+
+button:focus {
+    outline: 0;
+}
+
 #wrapper {
     width: 100vw;
     height: 100vh;
@@ -125,6 +142,8 @@ li {
         font-size: 150%;
         line-height: 1.75em;
     }
+
+
 }
 
 /* Retina Macbook / iPhone */
@@ -152,6 +171,11 @@ li {
         font-size: 200%;
         line-height: 2em !important;
     }
+
+    button:focus {
+        outline: 0;
+        color: white;
+    }
 }
 
     /* Portrait */
@@ -169,4 +193,31 @@ li {
         font-size: 200%;
         line-height: 2em !important;
     }
+
+    button:focus {
+        outline: 0;
+        color: white;
+    }
 }
+
+/* Low Res Phones etc */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    #about-wrap {
+        height: inherit;
+        position: relative;
+    }
+    
+    #about-content {
+        font-size: 14px;
+        height: inherit;
+        padding: 35px 0 0 0;
+        max-width: 100%;
+    }
+
+    button:focus {
+        outline: 0;
+        color: white;
+    }
+    
+  }
