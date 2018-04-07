@@ -103,21 +103,30 @@ li {
     }
 }
 
+/* Retina Macbook / iPhone */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+    a {
+        line-height: 1.75em !important;
+    }
+}
+
 /* iPad Pro */ 
     /* Landscape */
 @media only screen and (min-device-width: 1366px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)  {
    
     h1 {
-        font-size: 300%;
+        font-size: 350%;
     }
 
     h2 {
-        font-size: 200%;
+        font-size: 250%;
     }
 
     a {
-        font-size: 150%;
-        line-height: 2.5em;
+        font-size: 200%;
+        line-height: 2em !important;
     }
 }
 
@@ -125,15 +134,15 @@ li {
 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
     
     h1 {
-        font-size: 300%;
+        font-size: 350%;
     }
 
     h2 {
-        font-size: 200%;
+        font-size: 250%;
     }
 
     a {
-        font-size: 150%;
-        line-height: 2.5em;
+        font-size: 200%;
+        line-height: 2em !important;
     }
 }
