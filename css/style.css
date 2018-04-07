@@ -14,8 +14,9 @@ a {
     text-decoration: none;
 }
 
-h1, h2, a {
+h1, h2,p , a, button {
     color: #f8f8f8;
+    font-weight: 300;
 }
 
 a:hover {
@@ -139,19 +140,48 @@ button:focus {
         font-size: 200%;
     }
 
-    a {
+    a, button {
         font-size: 150%;
         line-height: 1.75em;
     }
 
-
+    #about-wrap {
+        height: inherit;
+        position: relative;
+        margin-right: 1em;
+    }
+    
+    #about-content {
+        height: inherit;
+        padding: 35px 0 0 0;
+        max-width: 50%;
+        min-width: 35%;
+    }
 }
+
+/* Laptops, Low res desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    #about-wrap {
+        height: inherit;
+        position: relative;
+        margin-right: 1em;
+    }
+    
+    #about-content {
+        height: inherit;
+        padding: 35px 0 0 0;
+        max-width: 50%;
+        min-width: 35%;
+    }
+    
+  }
 
 /* Retina Macbook / iPhone */
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) {
-    a {
+    a, button {
         line-height: 1.75em !important;
     }
 }
@@ -168,7 +198,7 @@ button:focus {
         font-size: 250%;
     }
 
-    a {
+    a, button {
         font-size: 200%;
         line-height: 2em !important;
     }
@@ -190,7 +220,7 @@ button:focus {
         font-size: 250%;
     }
 
-    a {
+    a, button {
         font-size: 200%;
         line-height: 2em !important;
     }
